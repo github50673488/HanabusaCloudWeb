@@ -1,0 +1,74 @@
+.divLogin {
+	height:150px;
+}
+
+#divTitle {
+	background: #444;
+	color: #ccc;
+	height: 60px;
+	text-align: left;
+	vertical-align: middle;
+	font-family: "ＭＳ ゴシック";
+}
+
+#divTitle b {
+	font-size: 36px;
+}
+
+
+	
+.text {
+	font-family: "ＭＳ Ｐ明朝";
+	font-size: 18px;
+	width: 250px;
+	height:30px;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+    -webkit-transition: color.5s;
+}
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+    color: #c2c2c2;
+    -webkit-transition: color.5s;
+}
+
+
+
+#divRoomSearch {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 55px;
+}
+#tabRoomSearch {
+	text-align: center;
+	width:100%;
+	height: 50px;	
+	margin: auto;
+}
+#divRoomData {
+	background-color: #fff;
+	height:597px;
+}
+#tabRoomData {
+	width:100%;
+	border: thin solid #C30;	
+}
+#BeginDate {
+    width:120px;
+    margin: auto;
+    height: 30px;
+    font-size: 18px;
+}
+#SearchRoom {
+	width:100px;
+	height:40px;
+}
+#divSplit1 {
+	height:1px;
+
+}
+
+
+

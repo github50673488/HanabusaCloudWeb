@@ -1,0 +1,12 @@
+root { 
+    display: block;
+}
+.sunday .ui-state-default {
+    color: red;
+}
+.saturday .ui-state-default {
+    color: blue;
+}
+.holiday .ui-state-default {
+    color: red;
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+#divHallData {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 10px;
+	/* vertical-align: top;	*/
+}
+.labelCol{
+	/*
+	position: relative;
+	left: 0px;
+	top: -13px;
+	*/
+	text-align: right;
+}
+.inputCol{
+	text-align:left;
+}
+.txtimpt{
+	color:#C00;
+}
+select {
+	width: 250px;
+	font-size: 18px;
+}
+.tips {
+    line-height: 16px;
+    padding: 6px 0 4px;
+}
+.txt-tips {
+    color: #000;
+	font-size:12px;
+}
+#tbInput{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #FFF;
+}
+.textbox {
+	width:240px;
+}
+#PurposeMemo {
+	width:840px;
+}
+#PurposeType {
+	width:870px;
+}

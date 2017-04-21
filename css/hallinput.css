@@ -1,0 +1,21 @@
+@charset "utf-8";
+#divHallData {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 10px;
+	/* vertical-align: top;	*/
+}
+
+#DelBtn {
+	width: 80px;
+	height: 30px;
+}
+
+#RoomCount,#ManCount,#WoManCount,#ChildCount,#Meal1Count,#Meal2Count,#Meal3Count {
+	width: 50px;
+	text-align:right;
+}
+#HallInput,#UserInput,#Back {
+   width: 150px;
+}

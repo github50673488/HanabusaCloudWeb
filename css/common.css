@@ -1,0 +1,382 @@
+html, body{height:100%;}
+
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo, Osaka", "ＭＳ Ｐゴシック", "MS PGothic","ＭＳ ゴシック","ＭＳ Ｐ明朝", "sans-serif","arial";
+	color:#000;
+	background-color:#fff;
+	margin:0;
+}
+
+.buttonstyle{
+  color:#ffffff;
+  width:130px;
+  height:50px;  
+  background-color:#ededed;
+  font-size:16px;
+  font-weight:normal;
+  font-family:Arial;
+  background:-webkit-gradient(linear, left top, left bottom, color-start(0.05, #007dc1), color-stop(1, #0061a7));
+  background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+  border:1px solid #124d77;
+  -webkit-border-top-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  border-top-left-radius:3px;
+  -webkit-border-top-right-radius:3px;
+  -moz-border-radius-topright:3px;
+  border-top-right-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-bottom-left-radius:3px;
+  -webkit-border-bottom-right-radius:3px;
+  -moz-border-radius-bottomright:3px;
+  border-bottom-right-radius:3px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+.buttonstyle:hover{
+  background-color:#f5f5f5;
+  background:-webkit-gradient(linear, left top, left bottom, color-start(0.05, #0061a7), color-stop(1, #007dc1));
+  background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+}
+
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"],select {
+	border: 1px solid #333333;
+	font-size: 18px;
+	padding: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	/*
+	box-shadow: 0px 0px 8px #009933;
+	-moz-box-shadow: 0px 0px 8px #009933;
+	-webkit-box-shadow: 0px 0px 8px #009933;
+	*/
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="number"]:focus,select:focus {
+	outline: none;
+	background-color: #FFC;
+	border: 1px solid #7bc1f7;
+	box-shadow: 0px 0px 8px #7bc1f7;
+	-moz-box-shadow: 0px 0px 8px #7bc1f7;
+	-webkit-box-shadow: 0px 0px 8px #7bc1f7;
+}
+
+input[type="submit"],input[type="button"] {
+	cursor:pointer;
+}
+
+div#container,#dataArea,#divMenu {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+
+}
+
+/*
+#dataArea {
+	height:648px;
+}
+*/
+
+div#header {
+	line-height: 0px;
+	margin-bottom: 30px;
+	background-image: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#efefef
+	);
+	background-image: -webkit-gradient(
+		linear,
+		left top,left bottom,
+		from(#ffffff),
+		to(#efefef)
+	);
+	border-top:3px solid #446200;
+	border-bottom:1px solid #d3d3d3;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(212,212,212,1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(212,212,212,1);
+	box-shadow: 0px 3px 5px 0px rgba(212,212,212,1);
+
+}
+.w1200{
+	width:1200px;
+	margin:0 auto;
+}
+div#header-left  {
+	float: left;
+	width: 506px;
+	height: 140px;
+}
+
+div#header-right  {
+	float: right;
+	width: 296px;
+	height: 140px;
+}
+
+.Message {
+	font-family: "ＭＳ ゴシック";
+	font-size: 16px;
+	font-style: normal;
+	color: #00F;
+	background-color: #BBB;
+	line-height: 56px;
+	float:right;
+	width:1050px;
+}
+
+#divMsgOwner {
+	height: 56px;	
+	background-color: #BBB;
+}
+
+#divMsg
+{
+	margin: auto;
+	text-align: left;
+	vertical-align: middle;
+}
+#divRoomDataMenu {
+	float: left;
+	width: 150px;
+	height: 56px;
+	text-align:center;
+	line-height: 56px;
+	margin: auto;	
+	background-color: #BBB;
+}
+
+/*
+*  トップボタンバー
+*/
+#divFunctionBar {
+    float: right;
+    width: 330px;
+    padding-right: 10px;
+    height: 56px;
+    text-align:right;
+    line-height: 56px;
+    margin: auto;	    
+    background-color: #BBB;
+}
+
+/*
+*  進捗状態指示バー
+*/
+#divStepBar {
+    font-family: "ＭＳ ゴシック";
+    font-size: 16px;
+    font-style: normal;
+    color: #00F;
+    background-color: #BBB;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 56px;
+    float:left;
+    width:860px;
+}
+
+.ui-datepicker-trigger {
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+table.ui-datepicker-calendar tbody td:first-child a.ui-state-default{
+  color: #F00;
+}
+table.ui-datepicker-calendar tbody td:last-child a.ui-state-default {
+  color: #00F;
+}
+
+.wrapper{
+    min-height:100%;
+    _height:100%;
+    margin-bottom:-120px;   /*假定页脚的高度为120px*/
+}
+
+.footer_placeholder{height:120px;}
+
+body{margin:0;}
+.footer_placeholder{clear:both;}
+
+#divFoot{
+        height:120px;
+	margin-top:30px;
+	background-color:#446200;
+	padding:10px 0 0;
+	color:#ffffff;
+}
+.fbox{
+	margin:0 20px 20px;
+	font-size:90%;
+}
+.flogo{
+	float:left;
+	margin-top:3px;
+	margin-right:10px;
+}
+.copy{
+	padding:8px 0;
+	background-color:#474e36;
+	color:#efefef;
+	text-align:center;
+	font-size:70%;
+}
+
+#divMsgBar{
+	background-color: #063;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 24px;
+	color: #F00;
+}
+
+#divMenu {
+	background: #222;
+	color: #ccc;
+	height: 40px;
+	text-align: left;
+}
+
+ol, ul ,li{list-style:none}
+
+ul#nav{ height:40px; background:#222;margin:0 auto}
+ul#nav li{display:inline; height:40px}
+ul#nav li a{
+	display: inline-block;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #222;
+}
+ul#nav li a:hover{
+	background-color: #000;
+}
+
+
+            /* Font Definitions */
+            @font-face
+            {font-family:"ＭＳ 明朝";
+             panose-1:2 2 6 9 4 2 5 8 3 4;}
+            @font-face
+            {font-family:Century;
+             panose-1:2 4 6 4 5 5 5 2 3 4;}
+            @font-face
+            {font-family:"Cambria Math";
+             panose-1:2 4 5 3 5 4 6 3 2 4;}
+            @font-face
+            {font-family:"\@ＭＳ 明朝";
+             panose-1:2 2 6 9 4 2 5 8 3 4;}
+            /* Style Definitions */
+            p.MsoNormal, li.MsoNormal, div.MsoNormal
+            {margin:0mm;
+             margin-bottom:.0001pt;
+             text-align:justify;
+             text-justify:inter-ideograph;
+             font-size:10.5pt;
+             font-family:"Century",serif;}
+            p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+            {mso-style-link:"コメント文字列 \(文字\)";
+             margin:0mm;
+             margin-bottom:.0001pt;
+             font-size:10.5pt;
+             font-family:"Century",serif;}
+            p.MsoHeader, li.MsoHeader, div.MsoHeader
+            {mso-style-link:"ヘッダー \(文字\)";
+             margin:0mm;
+             margin-bottom:.0001pt;
+             text-align:justify;
+             text-justify:inter-ideograph;
+             layout-grid-mode:char;
+             font-size:10.5pt;
+             font-family:"Century",serif;}
+            p.MsoFooter, li.MsoFooter, div.MsoFooter
+            {mso-style-link:"フッター \(文字\)";
+             margin:0mm;
+             margin-bottom:.0001pt;
+             text-align:justify;
+             text-justify:inter-ideograph;
+             layout-grid-mode:char;
+             font-size:10.5pt;
+             font-family:"Century",serif;}
+            p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+            {mso-style-link:"コメント内容 \(文字\)";
+             margin:0mm;
+             margin-bottom:.0001pt;
+             font-size:10.5pt;
+             font-family:"Century",serif;
+             font-weight:bold;}
+            p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+            {mso-style-link:"吹き出し \(文字\)";
+             margin:0mm;
+             margin-bottom:.0001pt;
+             text-align:justify;
+             text-justify:inter-ideograph;
+             font-size:9.0pt;
+             font-family:"Arial",sans-serif;}
+            p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+            {margin-top:0mm;
+             margin-right:0mm;
+             margin-bottom:0mm;
+             margin-left:42.0pt;
+             margin-bottom:.0001pt;
+             text-align:justify;
+             text-justify:inter-ideograph;
+             font-size:10.5pt;
+             font-family:"Century",serif;}
+            span.a
+            {mso-style-name:"ヘッダー \(文字\)";
+             mso-style-link:ヘッダー;}
+            span.a0
+            {mso-style-name:"フッター \(文字\)";
+             mso-style-link:フッター;}
+            span.a1
+            {mso-style-name:"コメント文字列 \(文字\)";
+             mso-style-link:コメント文字列;}
+            span.a2
+            {mso-style-name:"コメント内容 \(文字\)";
+             mso-style-link:コメント内容;
+             font-weight:bold;}
+            span.a3
+            {mso-style-name:"吹き出し \(文字\)";
+             mso-style-link:吹き出し;
+             font-family:"Arial",sans-serif;}
+            .MsoChpDefault
+            {font-family:"Century",serif;}
+            /* Page Definitions */
+            @page WordSection1
+            {size:595.3pt 841.9pt;
+             margin:99.25pt 30.0mm 30.0mm 30.0mm;
+             layout-grid:18.0pt;}
+            div.WordSection1
+            {page:WordSection1;}
+            /* List Definitions */
+            ol
+            {margin-bottom:0mm;}
+            ul
+            {margin-bottom:0mm;}
+           
